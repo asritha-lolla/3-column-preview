@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-div{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 65%;
+height: 40vh;
+/* background: red; */
+/* padding: 10px; */
+border-right: 1px solid black;
+border-radius: 0.5rem;
+}
+.sedan{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-right: 1px solid black;
+    height: 100%;
+    padding: 20px;
+    gap: 1rem;
+    background: orange;
+    /* border-radius: 0.5rem; */
+    h1{
+        color: white;
+    }
+    p{
+        color: rgb(226, 219, 219);
+    }
+    button{
+        height: 35px;
+        width: 90%;
+        padding: 5px;
+        border-radius: 1.5rem;
+        background: white;
+        border: 1px solid white;
+        color: orange;
+        cursor: pointer;
+        &:hover{
+            border: 1px solid white;
+            color: white;
+            background: orange;
+        }
+    }
+}
+.suv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-right: 1px solid black;
+    height: 100%;
+    padding: 20px;
+    gap: 1rem;
+    background: rgb(57, 57, 182);
+    /* border-radius: 0.5rem; */
+    h1{
+        color: white;
+    }
+    p{
+        color: rgb(226, 219, 219);
+    }
+    button{
+        height: 35px;
+        width: 90%;
+        padding: 5px;
+        border-radius: 1.5rem;
+        background: white;
+        color: rgb(57, 57, 182);
+        cursor: pointer;
+        border: 1px solid white;
+        &:hover{
+            border: 1px solid white;
+            color: white;
+            background: rgb(57, 57, 182);
+        }
+    }
+}
+.luxury{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* border-right: 1px solid black; */
+    height: 100%;
+    padding: 20px;
+    gap: 1rem;
+    background: green;
+    /* border-radius: 0.5rem; */
+    /* margin-left: 5px; */
+    h1{
+        color: white;
+    }
+    p{
+        color: rgb(226, 219, 219);
+    }
+    button{
+        height: 35px;
+        width: 90%;
+        padding: 5px;
+        border-radius: 1.5rem;
+        background: white;
+        border: 1px solid white;
+        color: green;
+        cursor: pointer;
+        &:hover{
+            border: 1px solid white;
+            color: white;
+            background: green;
+        }
+    }
+}
